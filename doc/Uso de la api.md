@@ -12,6 +12,7 @@
  "lastname": "Apellido del cliente",
  "docnumber": 123456789
 }
+```
 
 ### Obtener un cliente por ID
 - URL: `/api/v1/client/{id}`
@@ -27,7 +28,7 @@
   "lastname": "Nuevo apellido del cliente",
   "docnumber": 987654321
 }
-
+```
 ### Eliminar un cliente por ID
 - URL: `/api/v1/client/{id}`
 - Método: `DELETE`
@@ -46,7 +47,7 @@
   "price": 14.99,
   "stock": 3
 }
-
+```
 ### Obtener un producto  por ID
 - URL: `/api/v1/product/{id}`
 - Método: `GET`
@@ -63,7 +64,7 @@
   "price": 14.99,
   "stock": 3
 }
-
+```
 
 ### Eliminar un producto por ID
 - URL: `/api/v1/product/{id}`
@@ -90,7 +91,7 @@
         
     ]
 }
-
+```
 ### Obtener un comprobante  por ID
 - URL: `/api/v1/invoice/{id}`
 - Método: `GET`
@@ -98,3 +99,4 @@
 ### Obtener comprobantes por cliente ID
 - URL: `/api/v1/invoice/getInvoicesByClientId/{id}`
 - Método: `GET`
+
